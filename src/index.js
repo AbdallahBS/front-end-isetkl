@@ -20,8 +20,7 @@ import RegisterPage from "views/examples/RegisterPage.js";
 import { Provider } from "react-redux";
 import store from "./store";
 import { disableReactDevTools } from "@fvilers/disable-react-devtools";
-import {useEffect} from 'react';
-import { getHeader } from "actions/header.action";
+
 if(process.env.NODE_ENV ==='production') disableReactDevTools()
 window.store = store;
 // others

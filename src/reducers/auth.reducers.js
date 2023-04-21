@@ -1,4 +1,4 @@
-import { authConstants, userConstants } from "../actions/constans";
+import { authConstants} from "../actions/constans";
 const initState = {
     token : null,
     user : {

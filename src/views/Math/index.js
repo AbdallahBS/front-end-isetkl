@@ -3,9 +3,6 @@ import React from "react";
 // reactstrap components
 import {
   Button,
-  Label,
-  FormGroup,
-  Input,
   NavItem,
   NavLink,
   Nav,
@@ -16,16 +13,13 @@ import {
 
   Col
 } from "reactstrap";
-import { getReseau } from "actions";
-import  { useEffect, useState } from "react";
-import FileDownload from "js-file-download";
+import  { useEffect} from "react";
 import { useDispatch, useSelector } from 'react-redux';
 
 // core components
 import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
 import ProfilePageHeader from "components/Headers/Math.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
-import { getFile } from "actions/File.action";
 import { getMath } from "actions";
 import { getAllMathFiles } from "actions";
 import { getMathFile } from "actions";

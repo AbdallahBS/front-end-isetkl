@@ -1,5 +1,5 @@
 import axios from "../helpers/axios";
-import { headerConstants,FileConstants} from "./constans";
+import { headerConstants} from "./constans";
 
 export const getHeader = form =>{
     return async dispatch =>{

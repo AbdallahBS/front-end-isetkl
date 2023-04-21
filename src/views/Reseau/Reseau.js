@@ -4,9 +4,6 @@ import React from "react";
 // reactstrap components
 import {
   Button,
-  Label,
-  FormGroup,
-  Input,
   NavItem,
   NavLink,
   Nav,
@@ -18,7 +15,7 @@ import {
   Col
 } from "reactstrap";
 import { getReseau } from "actions";
-import  { useEffect, useState } from "react";
+import  { useEffect} from "react";
 import FileDownload from "js-file-download";
 import { useDispatch, useSelector } from 'react-redux';
 // core components

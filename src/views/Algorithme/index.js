@@ -3,9 +3,6 @@ import React from "react";
 // reactstrap components
 import {
   Button,
-  Label,
-  FormGroup,
-  Input,
   NavItem,
   NavLink,
   Nav,
@@ -17,16 +14,14 @@ import {
   Col
 } from "reactstrap";
 import { getAlgorithme } from "actions";
-import  { useEffect, useState } from "react";
+import  { useEffect} from "react";
 import FileDownload from "js-file-download";
 import { useDispatch, useSelector } from 'react-redux';
 // core components
 import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
 import ProfilePageHeader from "components/Headers/Algorithme.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
-import { getFile } from "actions/File.action";
 import { getAllAlgorithmeFiles } from "actions";
-import { getStatisticsFile } from "actions";
 import { getAlgorithmeFile } from "actions";
 
 function ProfilePage() {
